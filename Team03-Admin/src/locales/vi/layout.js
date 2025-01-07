@@ -1,0 +1,23 @@
+export default {
+    home: 'Trang chủ',
+    dashboard: 'Bảng điều khiển',
+    product: 'Sản phẩm',
+    management: 'Quản lý',
+    landing: 'Trang đích',
+    auth: 'Xác thực',
+    logout: 'Đăng xuất',
+    hierarchy: 'Cấu trúc',
+    submenu1: 'Danh mục con 1',
+    submenu11: 'Danh mục con 1.1',
+    submenu111: 'Danh mục con 1.1.1',
+    submenu112: 'Danh mục con 1.1.2',
+    submenu113: 'Danh mục con 1.1.3',
+    submenu12: 'Danh mục con 1.2',
+    submenu121: 'Danh mục con 1.2.1',
+    orderApproval: 'Phê duyệt sản phẩm',
+    promotionManagement: 'Quản lý khuyến mãi',
+    promotion: 'Khuyến mãi',
+    shop_manager: 'Quản lý shop',
+    category: 'Quản lý danh mục',
+    user_management: 'Quản lý người dùng'
+};

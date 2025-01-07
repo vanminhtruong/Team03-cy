@@ -1,0 +1,24 @@
+.p-tabmenu .p-tabmenu-nav li a {
+    color: gray !important;
+}
+
+.p-tabmenu .p-tabmenu-nav li.p-highlight a {
+    color: black !important;
+}
+.p-rating .p-rating-icon {
+    color: #ffd700 !important;
+}
+.p-checkbox {
+    color: black;
+}
+
+.p-checkbox-box {
+    border: 1px solid gray;
+}
+.p-checkbox-box.p-highlight .p-checkbox-icon {
+    color: yellow!important;
+}
+
+.p-checkbox-box:focus-within {
+    outline: 2px solid gray;
+}

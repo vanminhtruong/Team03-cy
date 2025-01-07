@@ -1,0 +1,154 @@
+.order-approval {
+    padding: 1rem;
+
+    .card {
+        background: var(--surface-card);
+        padding: 1rem;
+        border-radius: 6px;
+        box-shadow:
+            0 2px 1px -1px rgba(0, 0, 0, 0.2),
+            0 1px 1px 0 rgba(0, 0, 0, 0.14),
+            0 1px 3px 0 rgba(0, 0, 0, 0.12);
+
+        h4 {
+            color: var(--primary-color);
+        }
+    }
+
+    :deep(.p-datatable) {
+        .p-datatable-header {
+            background: transparent;
+            border: none;
+            padding: 0;
+        }
+
+        .p-datatable-thead > tr > th {
+            background: #ffffff;
+            color: #333333;
+            font-weight: bold;
+            border: none;
+            border-bottom: 1px solid #dee2e6;
+            padding: 1rem;
+            text-align: center;
+
+            &[data-field='no'] {
+                text-align: center;
+                width: 1rem;
+            }
+
+            &[data-field='productName'] {
+                text-align: center;
+            }
+
+            &[data-field='image'] {
+                text-align: center;
+            }
+
+            &[data-field='averageRating'] {
+                text-align: center;
+            }
+
+            &[data-field='price'] {
+                text-align: right;
+            }
+
+            &[data-field='status'] {
+                text-align: center;
+            }
+
+            &:hover {
+                background: #f8f9fa;
+            }
+        }
+
+        .p-datatable-tbody > tr {
+            background: #ffffff;
+
+            > td {
+                border: none;
+                border-bottom: 1px solid #dee2e6;
+                padding: 1rem;
+                color: #495057;
+                background: transparent;
+
+                &:first-child {
+                    text-align: center;
+                    width: 5rem;
+                }
+
+                &:nth-child(2) {
+                    text-align: left;
+                }
+
+                &:nth-child(3) {
+                    text-align: center;
+                }
+
+                &:nth-child(4) {
+                    text-align: center;
+                }
+
+                &:nth-child(5) {
+                    text-align: right;
+                }
+
+                &:nth-child(6) {
+                    text-align: center;
+                }
+
+                &:last-child {
+                    text-align: center;
+                }
+
+                .font-medium {
+                    color: #495057;
+                }
+            }
+
+            &:hover {
+                background: #f8f9fa;
+            }
+        }
+
+        .p-sortable-column-icon {
+            color: #6c757d;
+        }
+    }
+
+    .p-paginator {
+        .p-paginator-current,
+        .p-paginator-first,
+        .p-paginator-last,
+        .p-paginator-next,
+        .p-paginator-page,
+        .p-paginator-prev {
+            color: #6c757d;
+            min-width: 2.5rem;
+            height: 2.5rem;
+
+            &.p-highlight {
+                background: #e3f2fd;
+                color: #2196f3;
+            }
+        }
+    }
+}
+
+.p-datatable {
+    .p-datatable-tbody > tr {
+        cursor: pointer;
+    }
+}
+
+.old-price {
+    color: #6b7280;
+    margin-right: 8px;
+    font-size: 0.9rem;
+    display: inline-block;
+    text-decoration: line-through;
+}
+
+.new-price {
+    color: #000000;
+    font-weight: 600;
+}

@@ -1,0 +1,43 @@
+export default {
+    all: 'Tất cả',
+    upcoming: 'Sắp diễn ra',
+    ongoing: 'Đang diễn ra',
+    expired: 'Đã kết thúc',
+    error: 'Lỗi',
+    cannotFetch: 'Không thể tải danh sách khuyến mãi',
+    success: 'Thành công',
+    updateSuccess: 'Cập nhật khuyến mãi thành công',
+    updateError: 'Không thể cập nhật khuyến mãi',
+    deleteSuccess: 'Xóa khuyến mãi thành công',
+    deleteError: 'Không thể xóa khuyến mãi',
+    validationError: {
+        emptyFields: 'Tên và phần trăm giảm giá không được bỏ trống',
+        invalidDates: 'Ngày kết thúc phải lớn hơn ngày bắt đầu'
+    },
+    confirmDelete: 'Bạn có chắc chắn muốn xóa khuyến mãi này?',
+    noName: 'Khuyến mãi chưa đặt tên',
+    enterName: 'Nhập tên khuyến mãi',
+    percentage: 'Phần trăm giảm giá',
+    startDate: 'Ngày bắt đầu',
+    endDate: 'Ngày kết thúc',
+    status: 'Trạng thái',
+    delete: 'Xóa',
+    cancel: 'Hủy',
+    confirm: 'Xác nhận',
+    management: 'Quản lý khuyến mãi',
+    setup: 'Thiết lập mã giảm giá',
+    name: 'Tên khuyến mãi',
+    discountPercentage: 'Mức phần trăm giảm',
+    duration: 'Thời gian diễn ra',
+    startTime: 'Bắt đầu',
+    endTime: 'Kết thúc',
+    saveSetup: 'Lưu thiết lập',
+    addSuccess: 'Khuyến mãi đã được thêm thành công!',
+    addError: 'Đã có lỗi xảy ra khi thêm khuyến mãi!',
+    validation: {
+        requiredFields: 'Vui lòng nhập đầy đủ thông tin!',
+        startTimeMin: 'Thời gian bắt đầu phải ít nhất 3 phút sau thời gian hiện tại!',
+        endTimeGreater: 'Thời gian kết thúc phải lớn hơn thời gian bắt đầu!'
+    },
+    index: 'Stt'
+};

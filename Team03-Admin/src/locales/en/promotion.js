@@ -1,0 +1,43 @@
+export default {
+    all: 'All',
+    upcoming: 'Upcoming',
+    ongoing: 'Ongoing',
+    expired: 'Expired',
+    error: 'Error',
+    cannotFetch: 'Cannot load the promotion list',
+    success: 'Success',
+    updateSuccess: 'Promotion updated successfully',
+    updateError: 'Cannot update promotion',
+    deleteSuccess: 'Promotion deleted successfully',
+    deleteError: 'Cannot delete promotion',
+    validationError: {
+        emptyFields: 'Name and discount percentage cannot be empty',
+        invalidDates: 'End date must be greater than start date'
+    },
+    confirmDelete: 'Are you sure you want to delete this promotion?',
+    noName: 'Unnamed Promotion',
+    enterName: 'Enter promotion name',
+    percentage: 'Discount Percentage',
+    startDate: 'Start Date',
+    endDate: 'End Date',
+    status: 'Status',
+    delete: 'Delete',
+    cancel: 'Cancel',
+    confirm: 'Confirm',
+    management: 'Promotion Management',
+    setup: 'Setup Discount Code',
+    name: 'Promotion Name',
+    discountPercentage: 'Discount Percentage',
+    duration: 'Duration',
+    startTime: 'Start',
+    endTime: 'End',
+    saveSetup: 'Save Setup',
+    addSuccess: 'Promotion has been added successfully!',
+    addError: 'An error occurred while adding the promotion!',
+    validation: {
+        requiredFields: 'Please fill in all required fields!',
+        startTimeMin: 'Start time must be at least 3 minutes after current time!',
+        endTimeGreater: 'End time must be greater than start time!'
+    },
+    index: 'Index'
+};

@@ -1,0 +1,43 @@
+export default {
+    all: '전체',
+    upcoming: '예정',
+    ongoing: '진행 중',
+    expired: '만료됨',
+    error: '오류',
+    cannotFetch: '프로모션 목록을 불러올 수 없습니다',
+    success: '성공',
+    updateSuccess: '프로모션이 성공적으로 업데이트되었습니다',
+    updateError: '프로모션을 업데이트할 수 없습니다',
+    deleteSuccess: '프로모션이 성공적으로 삭제되었습니다',
+    deleteError: '프로모션을 삭제할 수 없습니다',
+    validationError: {
+        emptyFields: '이름과 할인율을 입력해주세요',
+        invalidDates: '종료일이 시작일보다 늦어야 합니다'
+    },
+    confirmDelete: '이 프로모션을 삭제하시겠습니까?',
+    noName: '이름 없는 프로모션',
+    enterName: '프로모션 이름 입력',
+    percentage: '할인율',
+    startDate: '시작일',
+    endDate: '종료일',
+    status: '상태',
+    delete: '삭제',
+    cancel: '취소',
+    confirm: '확인',
+    management: '프로모션 관리',
+    setup: '할인 코드 설정',
+    name: '프로모션 이름',
+    discountPercentage: '할인율',
+    duration: '기간',
+    startTime: '시작',
+    endTime: '종료',
+    saveSetup: '설정 저장',
+    addSuccess: '프로모션이 성공적으로 추가되었습니다!',
+    addError: '프로모션 추가 중 오류가 발생했습니다!',
+    validation: {
+        requiredFields: '모든 필수 항목을 입력해주세요!',
+        startTimeMin: '시작 시간은 현재 시간으로부터 최소 3분 후여야 합니다!',
+        endTimeGreater: '종료 시간은 시작 시간보다 늦어야 합니다!'
+    },
+    index: '색인'
+};
